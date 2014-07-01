@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5056" systemVersion="13D65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kCU-XP-edH">
+                                <rect key="frame" x="0.0" y="0.0" width="160" height="230"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <subviews>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ray" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9bo-kj-2os">
+                                        <rect key="frame" x="65" y="189" width="30" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="21" id="8kT-xU-4wh"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Ray.png" translatesAutoresizingMaskIntoConstraints="NO" id="2H6-Ub-Pnr">
+                                        <rect key="frame" x="20" y="20" width="120" height="161"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" red="1" green="0.87843143940000001" blue="0.61960786580000005" alpha="1" colorSpace="deviceRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="2H6-Ub-Pnr" secondAttribute="trailing" constant="20" id="2mD-9l-e6H"/>
+                                    <constraint firstItem="9bo-kj-2os" firstAttribute="top" secondItem="2H6-Ub-Pnr" secondAttribute="bottom" constant="8" id="4nn-sb-TJI"/>
+                                    <constraint firstItem="2H6-Ub-Pnr" firstAttribute="leading" secondItem="kCU-XP-edH" secondAttribute="leading" constant="20" id="9WC-pg-fJD"/>
+                                    <constraint firstAttribute="bottom" secondItem="9bo-kj-2os" secondAttribute="bottom" constant="20" id="Jmm-CX-4DV"/>
+                                    <constraint firstAttribute="centerX" secondItem="9bo-kj-2os" secondAttribute="centerX" id="Ym1-eQ-R1d"/>
+                                    <constraint firstItem="2H6-Ub-Pnr" firstAttribute="top" secondItem="kCU-XP-edH" secondAttribute="top" constant="20" id="dnw-q4-6yg"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="F4O-YO-dvy">
+                                <rect key="frame" x="0.0" y="230" width="160" height="230"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <subviews>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Dennis Ritchie" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iUK-z4-HM8">
+                                        <rect key="frame" x="25" y="189" width="111" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Dennis Ritchie.png" translatesAutoresizingMaskIntoConstraints="NO" id="OA9-dF-53y">
+                                        <rect key="frame" x="20" y="20" width="120" height="161"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" red="0.44313728810000003" green="0.75294125079999996" blue="0.41176474089999998" alpha="1" colorSpace="deviceRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JMO-Ce-g8B">
+                                <rect key="frame" x="160" y="230" width="160" height="230"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <subviews>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Brad Cox" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PPg-7w-ybR">
+                                        <rect key="frame" x="44" y="189" width="73" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Brad Cox.png" translatesAutoresizingMaskIntoConstraints="NO" id="ZeD-7c-AX5">
+                                        <rect key="frame" x="20" y="20" width="120" height="161"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" red="0.86666673419999996" green="0.35294118520000001" blue="0.37254902719999999" alpha="1" colorSpace="deviceRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5oy-au-355">
+                                <rect key="frame" x="160" y="0.0" width="160" height="230"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <subviews>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Matthijs" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pvB-ZH-nAp">
+                                        <rect key="frame" x="50" y="189" width="61" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Matthijs.png" translatesAutoresizingMaskIntoConstraints="NO" id="OBW-Re-V1d">
+                                        <rect key="frame" x="20" y="20" width="120" height="161"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" red="0.0078431377190000002" green="0.60784316059999999" blue="0.6784313917" alpha="1" colorSpace="deviceRGB"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="5oy-au-355" firstAttribute="top" secondItem="kh9-bI-dsS" secondAttribute="top" id="2Kn-OF-eGN"/>
+                            <constraint firstItem="JMO-Ce-g8B" firstAttribute="width" secondItem="5oy-au-355" secondAttribute="width" id="834-4d-vZb"/>
+                            <constraint firstItem="JMO-Ce-g8B" firstAttribute="width" secondItem="F4O-YO-dvy" secondAttribute="width" id="G2S-og-yn7"/>
+                            <constraint firstItem="JMO-Ce-g8B" firstAttribute="height" secondItem="kCU-XP-edH" secondAttribute="height" id="HhI-fp-aGL"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="JMO-Ce-g8B" secondAttribute="bottom" constant="20" id="JBm-Nt-OOS"/>
+                            <constraint firstItem="5oy-au-355" firstAttribute="leading" secondItem="kCU-XP-edH" secondAttribute="trailing" id="Jk1-wQ-OQH"/>
+                            <constraint firstAttribute="trailing" secondItem="JMO-Ce-g8B" secondAttribute="trailing" id="KKV-eb-Dfk"/>
+                            <constraint firstItem="5oy-au-355" firstAttribute="leading" secondItem="kCU-XP-edH" secondAttribute="trailing" id="Kz7-f1-VJs"/>
+                            <constraint firstItem="JMO-Ce-g8B" firstAttribute="width" secondItem="F4O-YO-dvy" secondAttribute="width" id="OY8-qu-tDF"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="F4O-YO-dvy" secondAttribute="bottom" constant="20" id="QCT-33-3LY"/>
+                            <constraint firstItem="JMO-Ce-g8B" firstAttribute="height" secondItem="F4O-YO-dvy" secondAttribute="height" id="TcM-Lf-mgP"/>
+                            <constraint firstItem="JMO-Ce-g8B" firstAttribute="leading" secondItem="5oy-au-355" secondAttribute="leading" id="VZZ-sI-lkY"/>
+                            <constraint firstItem="JMO-Ce-g8B" firstAttribute="width" secondItem="5oy-au-355" secondAttribute="width" id="Wey-qh-Oo1"/>
+                            <constraint firstItem="JMO-Ce-g8B" firstAttribute="width" secondItem="kCU-XP-edH" secondAttribute="width" id="Xnb-Fq-FWO"/>
+                            <constraint firstItem="JMO-Ce-g8B" firstAttribute="height" secondItem="5oy-au-355" secondAttribute="height" id="aOq-vQ-V9A"/>
+                            <constraint firstAttribute="trailing" secondItem="5oy-au-355" secondAttribute="trailing" id="fcN-f3-lYh"/>
+                            <constraint firstItem="JMO-Ce-g8B" firstAttribute="width" secondItem="kCU-XP-edH" secondAttribute="width" id="ihc-uS-ivP"/>
+                            <constraint firstItem="kCU-XP-edH" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="mcx-BY-tfF"/>
+                            <constraint firstItem="F4O-YO-dvy" firstAttribute="top" secondItem="kCU-XP-edH" secondAttribute="bottom" id="pR5-Xw-fNw"/>
+                            <constraint firstItem="5oy-au-355" firstAttribute="leading" secondItem="kCU-XP-edH" secondAttribute="trailing" id="rck-IX-TYr"/>
+                            <constraint firstItem="kCU-XP-edH" firstAttribute="top" secondItem="kh9-bI-dsS" secondAttribute="top" id="syQ-aQ-o56"/>
+                            <constraint firstItem="F4O-YO-dvy" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="w7s-Il-qdG"/>
+                        </constraints>
+                    </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rZ0-Gp-uyX">
+                    <rect key="frame" x="0.0" y="0.0" width="160" height="230"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    <subviews>
+                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qwr-Wt-5Nh">
+                            <rect key="frame" x="59" y="189" width="42" height="21"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Ray.png" translatesAutoresizingMaskIntoConstraints="NO" id="f7e-iF-lwk">
+                            <rect key="frame" x="20" y="20" width="120" height="161"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </imageView>
+                    </subviews>
+                    <color key="backgroundColor" red="1" green="0.87843143940000001" blue="0.61960786580000005" alpha="1" colorSpace="deviceRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="230" id="2hi-Sp-s1A"/>
+                        <constraint firstAttribute="trailing" secondItem="f7e-iF-lwk" secondAttribute="trailing" constant="20" id="3Nw-rF-gEJ"/>
+                        <constraint firstAttribute="width" constant="160" id="97k-XN-o5g"/>
+                        <constraint firstItem="qwr-Wt-5Nh" firstAttribute="top" secondItem="f7e-iF-lwk" secondAttribute="bottom" constant="8" symbolic="YES" id="BTR-0s-awJ"/>
+                        <constraint firstItem="f7e-iF-lwk" firstAttribute="leading" secondItem="rZ0-Gp-uyX" secondAttribute="leading" constant="20" symbolic="YES" id="ExW-EP-0cZ"/>
+                        <constraint firstItem="qwr-Wt-5Nh" firstAttribute="top" secondItem="rZ0-Gp-uyX" secondAttribute="top" constant="189" id="UWm-sQ-Oli"/>
+                        <constraint firstItem="f7e-iF-lwk" firstAttribute="top" secondItem="rZ0-Gp-uyX" secondAttribute="top" constant="20" symbolic="YES" id="fTV-aM-hfN"/>
+                        <constraint firstItem="qwr-Wt-5Nh" firstAttribute="leading" secondItem="rZ0-Gp-uyX" secondAttribute="leading" constant="59" id="vG1-WW-idZ"/>
+                    </constraints>
+                </view>
+            </objects>
+            <point key="canvasLocation" x="156" y="64"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Brad Cox.png" width="176" height="214"/>
+        <image name="Dennis Ritchie.png" width="144" height="145"/>
+        <image name="Matthijs.png" width="144" height="158"/>
+        <image name="Ray.png" width="230" height="219"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>
