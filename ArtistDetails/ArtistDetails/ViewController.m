@@ -11,6 +11,7 @@
 @interface ViewController ()
 @property (weak, nonatomic) IBOutlet UILabel *artistNameLabel;
 @property (weak, nonatomic) IBOutlet UILabel *releaseYearLabel;
+@property (weak, nonatomic) IBOutlet UILabel *albumValueLabel;
 - (IBAction)nextButtonTapped:(id)sender;
 @end
 
@@ -35,6 +36,12 @@
         texts = @[@"Year", @"Very Long Label Text:", @"Release Year:"];
     }
     self.releaseYearLabel.text = texts[index % 3];
+    
+    static NSArray *albums;
+    if (albums == nil) {
+        albums = @[@"The Complete Riverside Recordings", @"Live at the Blue Note"];
+    }
+    self.albumValueLabel.text = albums[index % 2];
     index ++ ;
 }
 
