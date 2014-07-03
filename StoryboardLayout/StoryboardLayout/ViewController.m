@@ -8,6 +8,13 @@
 
 #import "ViewController.h"
 
+@interface UIWindow (AutoLayoutDebug)
+
++ (UIWindow *)keyWindow;
+- (NSString *)_autolayoutTrace;
+
+@end
+
 @interface ViewController ()
 
 @end
@@ -24,6 +31,11 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (void)didRotateFromInterfaceOrientation:(UIInterfaceOrientation)fromInterfaceOrientation
+{
+//    NSLog(@"%@",[[UIWindow keyWindow] _autolayoutTrace]);
 }
 
 @end

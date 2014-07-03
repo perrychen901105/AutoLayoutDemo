@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C2059F1E196520CB0095BCC7 /* SidebarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2059F1D196520CB0095BCC7 /* SidebarViewController.m */; };
 		C28DD2341964044800A190A7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C28DD2331964044800A190A7 /* Foundation.framework */; };
 		C28DD2361964044800A190A7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C28DD2351964044800A190A7 /* CoreGraphics.framework */; };
 		C28DD2381964044800A190A7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C28DD2371964044800A190A7 /* UIKit.framework */; };
@@ -34,6 +35,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C2059F1C196520CB0095BCC7 /* SidebarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SidebarViewController.h; sourceTree = "<group>"; };
+		C2059F1D196520CB0095BCC7 /* SidebarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SidebarViewController.m; sourceTree = "<group>"; };
 		C28DD2301964044800A190A7 /* StoryboardLayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StoryboardLayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C28DD2331964044800A190A7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C28DD2351964044800A190A7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -117,6 +120,8 @@
 				C28DD2451964044800A190A7 /* Main.storyboard */,
 				C28DD2481964044800A190A7 /* ViewController.h */,
 				C28DD2491964044900A190A7 /* ViewController.m */,
+				C2059F1C196520CB0095BCC7 /* SidebarViewController.h */,
+				C2059F1D196520CB0095BCC7 /* SidebarViewController.m */,
 				C28DD24B1964044900A190A7 /* Images.xcassets */,
 				C28DD23A1964044800A190A7 /* Supporting Files */,
 			);
@@ -252,6 +257,7 @@
 				C28DD24A1964044900A190A7 /* ViewController.m in Sources */,
 				C28DD2441964044800A190A7 /* AppDelegate.m in Sources */,
 				C28DD2401964044800A190A7 /* main.m in Sources */,
+				C2059F1E196520CB0095BCC7 /* SidebarViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -456,6 +462,7 @@
 				C28DD2641964044900A190A7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C28DD2651964044900A190A7 /* Build configuration list for PBXNativeTarget "StoryboardLayoutTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +471,7 @@
 				C28DD2671964044900A190A7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
