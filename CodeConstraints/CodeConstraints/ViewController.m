@@ -151,8 +151,16 @@
     constraint.priority = 998;
     [button1 addConstraint:constraint];
     
-    
-    
+    // set button 2 bottom align the button1 top
+    constraint = [NSLayoutConstraint
+                  constraintWithItem:button2
+                  attribute:NSLayoutAttributeBottom
+                  relatedBy:NSLayoutRelationEqual
+                  toItem:button1
+                  attribute:NSLayoutAttributeTop
+                  multiplier:1.0f
+                  constant:-8.0f];
+    [self.view addConstraint:constraint];
     [button1 addTarget:button1 action:@selector(exerciseAmbiguityInLayout) forControlEvents:UIControlEventTouchUpInside];
     // Do any additional setup after loading the view.
 }
