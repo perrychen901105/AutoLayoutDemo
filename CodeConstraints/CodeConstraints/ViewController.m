@@ -161,6 +161,21 @@
                   multiplier:1.0f
                   constant:-8.0f];
     [self.view addConstraint:constraint];
+    
+    
+    // set button2 left align the button1 left
+    constraint = [NSLayoutConstraint
+                  constraintWithItem:button2
+                  attribute:NSLayoutAttributeLeading
+                  relatedBy:NSLayoutRelationEqual
+                  toItem:button1
+                  attribute:NSLayoutAttributeLeading
+                  multiplier:1.0f
+                  constant:0.0f];
+    [self.view addConstraint:constraint];
+    
+    
+    
     [button1 addTarget:button1 action:@selector(exerciseAmbiguityInLayout) forControlEvents:UIControlEventTouchUpInside];
     // Do any additional setup after loading the view.
 }
